@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body {
+
+}
+
+
+.site {
+    max-width: 800px;
+    min-height: 400px;
+    margin: 0 auto;
+    background: #090;
+}
