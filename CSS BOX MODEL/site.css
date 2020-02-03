@@ -1,0 +1,7 @@
+/*Преизползваеми*/
+@import url('reset.css');
+@import url('typography.css');
+
+/*Специфични за сайта*/
+@import url('layout.css');
+@import url('blog.css');

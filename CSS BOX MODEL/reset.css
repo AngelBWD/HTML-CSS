@@ -1,0 +1,16 @@
+/*Remove all defoult whitespace */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Reset CSS Box model sizing calculations*/
+
+html {
+    box-sizing: border-box ;
+}
+
+*, *:befor, *:after {
+    box-sizing: initial;
+}
