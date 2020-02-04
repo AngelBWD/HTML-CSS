@@ -4,4 +4,6 @@
 
 /*Специфични за сайта*/
 @import url('layout.css');
+@import url('navigation.css');
+
 @import url('blog.css');
