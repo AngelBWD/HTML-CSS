@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+}
+
+.viewport {
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.viewport:nth-child(even) {
+    background-color: lightsalmon;
+}
+
+.card {
+    color: white;
+    font-size: 3em;
+}
