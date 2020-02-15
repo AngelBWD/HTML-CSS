@@ -32,7 +32,7 @@ body {
 .card:before {
     display: block;
     content: '';
-    background:rgba(0, 0, 0, 0.5);
+/* background:rgba(0, 0, 0, 0.5); */
     z-index: 10;
     position: relative;
 }
@@ -53,4 +53,16 @@ body {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background: blue;
+}
+
+.card.portrait img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.card.landscape img {
+    display: block;
+    height: auto;
+    width: 100%;
 }
