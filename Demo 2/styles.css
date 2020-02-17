@@ -27,14 +27,29 @@ body {
     width: 12em;
     overflow: hidden;
     border-radius: 0.2em;
+    box-shadow: 0 0 1.5rem 0.1em rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+
 }
 
 .card:before {
     display: block;
     content: '';
 /* background:rgba(0, 0, 0, 0.5); */
+    box-shadow: 0 0 2em 0.2em rgba(0, 0, 0, 0.9) inset;
     z-index: 10;
     position: relative;
+    transition: opacity 0.3s ease-in;
+    pointer-events: none;
+}
+
+.card:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.card:hover:before {
+    opacity: 0.1;
 }
 
 .card.ar-16x9:before {
@@ -65,4 +80,12 @@ body {
     display: block;
     height: auto;
     width: 100%;
+}
+
+.card .icon {
+    line-height: 1;
+    position: absolute;
+    color: #fff;
+    bottom: 1.5em;
+    right: 1.5em;
 }
