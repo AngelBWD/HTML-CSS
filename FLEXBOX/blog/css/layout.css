@@ -22,6 +22,11 @@ body {
     padding-right: 2em;
 }
 
+.site-content.site-gallery {
+    flex-basis: 100%;
+    padding: 0;
+}
+
 .site-sidebar {
     flex: 0 0 40%;
 }
