@@ -1,0 +1,41 @@
+.player {
+
+}
+
+.player .screen {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background: #090;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.9);
+}
+
+.player .screen:before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.player .controls {
+    display: flex;
+    padding: 1em 0;
+    align-items: center;
+}
+
+.controls a {
+    display: block;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.controls .track {
+    flex-grow: 1;
+    background: #f00;
+    margin: 0 1em;
+    min-height: 0.5em;
+    border-radius: 0.2em;
+}
