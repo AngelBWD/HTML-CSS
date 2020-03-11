@@ -32,10 +32,39 @@
     text-decoration: none;
 }
 
+.controls a + a {
+    margin-left: 1em;
+}
+
 .controls .track {
     flex-grow: 1;
-    background: #f00;
+    background: #999;
     margin: 0 1em;
     min-height: 0.5em;
+    border-radius: 0.2em;
+    position: relative;
+}
+
+.controls .track::before {
+    display: block;
+    content: '';
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: #A00;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translateY(-50%);
+    z-index: 10;
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.4);
+}
+
+.controls .track::after {
+    display: block;
+    content: '';
+    width: 55%;
+    height: 0.5em;
+    background: #c00;
     border-radius: 0.2em;
 }
