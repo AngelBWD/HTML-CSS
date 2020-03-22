@@ -3,31 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Queries</title>
+    <title>Liverpool News</title>
     <link rel="stylesheet" href="site.css">
 </head>
 <body>
 
     <div class="site">
 
-        <input type="checkbox" id="site-nav-toggle">
-
+        <input type="checkbox" id="site-nav-toggle" class="site-nav-toggle">
+        
         <header class="site-header">
-            <h1>Site Title</h1>
+            <h1>Liverpool News</h1>
+            
 
-            <label for="site-nav-toggle" class="site-nav-label">Menu</label>
+            <label for="site-nav-toggle" class="site-nav-label">
+                <span class="close">Slose</span>
+                <span class="open">Menu</span>
+            </label>
 
             <nav class="site-nav">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">News</a>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#">Team News</a></li>
+                            <li><a href="#">Fans News</a></li>
+                            <li><a href="#">Coments</a></li>
                         </ul>   
                     </li>
+                    <li><a href="#">Products</a></li>
+
                     <li><a href="#">Contacts</a></li>
                 </ul>
             </nav>
