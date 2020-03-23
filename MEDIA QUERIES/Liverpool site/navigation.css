@@ -28,11 +28,6 @@
     text-decoration: none;
 }
 
-.site-nav li:hover > a,
-.site-nav a:hover {
-    background-color: #B91614;
-}
-
 .site-nav-label {
     display: none;
 }
@@ -117,5 +112,10 @@
     .site-nav li:hover > ul {
     display: block;
     }
+
+    .site-nav li:hover > a,
+    .site-nav a:hover {
+    background-color: #B91614;
+}
 
 }
