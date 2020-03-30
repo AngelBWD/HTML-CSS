@@ -19,6 +19,7 @@
     height: 2.8em;
     line-height: 1;
     transition: background 0.2s ease-in;
+    margin-bottom: 1em;
 }
 
 .social a:hover {
