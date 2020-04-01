@@ -53,7 +53,9 @@ header nav ul:nth-child(2) li {
     text-align: center;
     background: url('https://picserio.com/data/out/50/flower-landscape-wallpaper_2734611.jpg') no-repeat center;
     color: white;
-    padding: 1em;
+    padding: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 .main-image p {
@@ -61,5 +63,132 @@ header nav ul:nth-child(2) li {
 }
 
 .main-image h1 {
-    font-size: 3em;
+    font-size: 2, 5em;
+}
+
+.how-it-works h4 {
+    text-align: center;
+    padding: 2em;
+}
+
+.how-it-works ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.how-it-works ul li {
+    text-align: center;
+    width: 15%;
+    margin: 1em;
+}
+
+.how-it-works ul li h2:first-child {
+    font-size: 2.5em;
+}
+
+.how-it-works ul li h2 {
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.num::before,
+.num::after {
+    height: 2px;
+    width: 15px;
+    background-color: gray;
+    content: '';
+    display: block;
+    margin: 0.3em;
+}
+
+.images ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 3em;
+}
+
+.images ul li {
+    margin: 0.2em;
+}
+
+.images ul li img {
+    width: 15em;
+    height: 15em;
+}
+
+.images {
+    background: rgb(237, 237, 237);
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+footer {
+    background-color: #000;
+    color: rgb(237, 237, 237);
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.left {
+    display: flex;
+    padding: 0em 1em 3em 3em;
+    border-bottom: 2px solid rgb(226, 223, 223);
+    padding: 0em 0;
+}
+
+.left ul {
+    padding: 0em 1em 1em 1em;
+}
+
+.center p {
+    text-align: center;
+}
+
+.center img {
+    width: 6em;
+}
+
+.right > * {
+    margin: 0em 1em 1em 1em;
+}
+
+.right input,
+.right button {
+    padding: 0.5em;
+}
+
+.right {
+    display: block;
+    padding: 0em 1em 0em 1em;
+}
+.right p {
+    text-align: center;
+    width: 11em;
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+}
+
+button {
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 0.2em;
+}
+
+.down {
+    text-align: center;
+    padding: 6em 0 2em 0;
 }
